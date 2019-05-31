@@ -1,0 +1,69 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #333;
+    color: #fff;
+}
+
+p {
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: .8;
+}
+
+
+/* home section */
+
+.home-section {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/personal-2923048_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+
+.home-section .home-inner {
+    padding-top: 150px;
+}
+
+.home-section .card-form {
+    opacity: .8;
+}
+
+.home-section .fa-check {
+    background: #fff;
+    color: #008ed6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* home section ends */
+
+
+/* explore bottom */
+
+.explore-bottom .fa-check {
+    background: grey;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* explore bottom ends */
+
+
+/* create section */
+
+.create-bottom .fa-check {
+    background: #fff;
+    color: #008ed6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* create section ends */
