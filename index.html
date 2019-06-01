@@ -8,6 +8,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./animate.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>loopTrack</title>
@@ -50,7 +51,7 @@
         <div class="dark-overlay">
             <div class="home-inner container">
                 <div class="row">
-                    <div class="col-md-8 d-none d-md-block">
+                    <div class="col-md-8 d-none d-md-block wow fadeInLeft">
                         <h1 class="display-4"> Build <strong class="text-primary"> social profiles</strong> and gain revenue<strong class="text-info"> profits</strong> </h1>
                         <div class="d-flex">
                             <div class="p-4 align-self-start">
@@ -80,7 +81,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card bg-primary card-form text-center">
+                        <div class="card bg-primary card-form text-center wow fadeInRight">
                             <div class="card-body">
                                 <h3>Sign Up Today</h3>
                                 <p>Please fill out the form</p>
@@ -127,9 +128,9 @@
         <div class="container">
             <div class="row text-muted py-5">
                 <div class="col-md-6">
-                    <img src="./img/mobile-phone.jpg" class="img-fluid shadow rounded-circle mb-3" alt="">
+                    <img src="./img/mobile-phone.jpg" class="img-fluid shadow rounded-circle mb-3 wow fadeInLeft" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInRight">
                     <h3>Explore and Connect</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae est similique laborum qui sed dignissimos enim? Blanditiis, tenetur nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ea excepturi animi reiciendis
                         saepe, minima exercitationem optio culpa cum illo!</p>
@@ -174,9 +175,9 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-md-6 order-2">
-                    <img src="./img/finger.jpg" class="img-fluid rounded-circle shadow mb-3" alt="">
+                    <img src="./img/finger.jpg" class="img-fluid rounded-circle shadow mb-3 wow fadeInRight" alt="">
                 </div>
-                <div class="col-md-6 order-1">
+                <div class="col-md-6 order-1 wow fadeInLeft">
                     <h3>Create your passion</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae est similique laborum qui sed dignissimos enim? Blanditiis, tenetur nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ea excepturi animi reiciendis
                         saepe, minima exercitationem optio culpa cum illo!</p>
@@ -221,9 +222,9 @@
         <div class="container">
             <div class="row text-muted py-5">
                 <div class="col-md-6">
-                    <img src="./img/business-share.jpg" class="img-fluid shadow rounded-circle mb-3" alt="">
+                    <img src="./img/business-share.jpg" class="img-fluid shadow rounded-circle mb-3 wow fadeInLeft" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInRight">
                     <h3>Share what you create</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae est similique laborum qui sed dignissimos enim? Blanditiis, tenetur nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ea excepturi animi reiciendis
                         saepe, minima exercitationem optio culpa cum illo!</p>
@@ -340,6 +341,12 @@
                 })
             }
         })
+    </script>
+
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
     </script>
 
 </body>

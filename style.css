@@ -67,3 +67,13 @@ p {
 
 
 /* create section ends */
+
+
+/* share bottom */
+
+.share-bottom .fa-check {
+    background: grey;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
